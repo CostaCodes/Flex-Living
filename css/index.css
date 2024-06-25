@@ -1,12 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-#flex-living-webpage {
+body {
     font-family: "Lato", sans-serif;
 }
 
@@ -1193,7 +1194,7 @@ footer .subscribe .btn a {
 
     .text-section .text h5 {
         font-size: 15px;
-        width: 300px;
+        width: 100%;
     }
 
     .feature-section {
@@ -1309,6 +1310,7 @@ footer .subscribe .btn a {
 
     .corporate-section .corporate-text h1 {
         font-size: 30px;
+        line-height: 30px;
     }
 
     .corporate-section .corporate-text p {
@@ -1333,6 +1335,7 @@ footer .subscribe .btn a {
 
     .second-partner .texts h1 {
         font-size: 30px;
+        text-align: center;
         padding-bottom: 0;
     }
 
@@ -1348,7 +1351,7 @@ footer .subscribe .btn a {
 
     .second-partner .partners .person {
         width: 100%;
-        height: 350px;
+        height: 100%;
         padding: 30px;
         border-radius: 20px;
         margin-bottom: 30px;
@@ -1508,7 +1511,7 @@ footer .subscribe .btn a {
 
     footer .subscribe .btn {
         width: 50%;
-        margin-left: 100px;
+        margin-left: 80px;
     }
 
 
