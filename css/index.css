@@ -38,7 +38,7 @@ header .menu-section ul {
 /*Hero-section*/
 
 .hero-section {
-    background-image: url("/Imgaes/Image\ \(1\).png");
+    background-image: url("../Imgaes/Image\ \(1\).png");
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -224,7 +224,7 @@ header .menu-section ul {
 .bespoke-section {
     margin-bottom: 90px;
     margin-top: 50px;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(/Imgaes/bespoke.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(../Imgaes/bespoke.png);
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
@@ -671,7 +671,7 @@ header .menu-section ul {
 /*Choose-City*/
 
 .choose-city{
-    background-image: url(/Imgaes/background.png);
+    background-image: url(../Imgaes/background.png);
     background-size: cover;
     height: 100vh;
     background-repeat: no-repeat;
