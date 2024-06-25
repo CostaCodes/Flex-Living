@@ -1,0 +1,1522 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#flex-living-webpage {
+    font-family: "Lato", sans-serif;
+}
+
+header {
+    background-color: #FFFFFF;
+    margin: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .menu-section ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.menu-section ul {
+    list-style: none;
+}
+
+.menu-section a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*Hero-section*/
+
+.hero-section {
+    background-image: url("/Imgaes/Image\ \(1\).png");
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-section .rent {
+    width: 365px;
+    height: 300px;
+    padding: 50px;
+    top: 223px;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+
+.hero-section .rent h1 {
+    color: #181A18;
+    font-size: 43px;
+    font-weight: 700px;
+    line-height: 50px;
+    padding-bottom: 15px;
+}
+
+.hero-section .rent h5 {
+    color: #181A18;
+    font-size: 17px;
+    font-family: lato;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+/*future-section*/
+
+.future-section {
+    padding: 90px;
+    display: flex;
+}
+
+.future-section .image-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.future-section .text-section {
+    background-color: #F2F0F2;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    padding: 50px;
+    width: 100%;
+}
+
+.text-section .text {
+    top: 30%;
+    left: 10%;
+}
+
+.text-section .text h2 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #181A18;
+    padding-bottom: 15px;
+}
+
+.text-section .text h5 {
+    color: #181A18;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+
+/*Feature-Section*/
+
+.feature-section {
+    padding-top: 0;
+    padding-bottom: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.feature-section .text-section {
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.feature-section .text-section h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.feature-section .text-section h5 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.feature-section .icon-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.feature-section .icon-section .logo {
+    width: 300px;
+    height: 250px;
+    padding: 40px;
+    border-radius: 30px;
+    background-color: #E2F1E8;
+}
+
+.icon-section .logo h3 {
+    font-size: 26px;
+    padding: 8px 0;
+    font-weight: 700;
+    color: #181A18;
+    line-height: 32px;
+}
+
+.icon-section .logo h6 {
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    color: #181A18;
+}
+
+
+/*Location-Section*/
+
+.location-section {
+    padding-top: 30px;
+    padding-bottom: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.location-section .text {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 40px;
+}
+
+.location-section .text h1 {
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.location {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.location .city .text {
+    color: #181A18;
+    font-size: 20px;
+    padding: 15px 0;
+}
+
+.location-section .btn a {
+    text-decoration: none;
+    background-color: #064749;
+    color: #FFFFFF;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.location-section .btn {
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Bespoke-Section*/
+
+.bespoke-section {
+    margin-bottom: 90px;
+    margin-top: 50px;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url(/Imgaes/bespoke.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bespoke-section .text {
+    color: #FFFFFF;
+    position: absolute;
+    top: 200px;
+    padding: 40px;
+    height: 300px;
+}
+
+.bespoke-section .text h2 {
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 700;
+}
+
+.bespoke-section .text p {
+    font-size: 17px;
+    color: #FFFFFF;
+    line-height: 24px;
+    font-family: 400;
+    margin: 15px 0;
+}
+
+.bespoke-section .text .btn a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.bespoke-section .text .btn {
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #064749;
+    width: 40%;
+    text-align: center;
+    border-radius: 30px;
+}
+
+
+/*Corporate-Section*/
+
+.corporate-section {
+    padding-bottom: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.corporate-section .corporate-text {
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.corporate-section .corporate-text h1{
+    font-size: 45px;
+    line-height: 54px;
+}
+
+.corporate-section .corporate-text p {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    padding: 10px 0;
+}
+
+.corporate-section .corporate-features {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.corporate-section .corporate-features .features {
+    background-color: #E2F1E8;
+    color: #181A18;
+    padding: 30px 40px;
+    width: 400px;
+    height: 180px;
+    border-radius: 30px;
+}
+
+.corporate-features .features .text h5 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    padding-bottom: 5px;
+}
+
+.corporate-features .features .text p {
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+
+/*Partner-Section*/
+
+.first-partner {
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+.first-partner .texts {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.first-partner .texts h1 {
+    font-size: 45px;
+    line-height: 54px;
+    padding-bottom: 8px;
+}
+
+.first-partner .texts p {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.first-partner .partners {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-partner .partners .person {
+    padding: 40px;
+    width: 750px;
+    height: 300px;
+    background-color: #F2F0F2;
+    border-radius: 60px 60px 60px 12px;
+}
+
+.first-partner .partners .person .img-part {
+    display: flex;
+    gap: 20px;
+}
+
+.partners .person .img-part .text {
+    padding-top: 15px;
+}
+
+.partners .person .img-part .text h5 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.partners .person .img-part .text small {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.first-partner .partners .person .caption p {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.first-partner .btn {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-partner .btn .img-part {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+/*Second-Partner*/
+
+.second-partner {
+    padding-top: 20px;
+    padding-bottom: 90px;
+}
+
+.second-partner .texts {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.second-partner .texts h1 {
+    font-size: 45px;
+    line-height: 54px;
+    padding-bottom: 8px;
+}
+
+.second-partner .texts p {
+    font-size: 19px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.second-partner .partners {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-partner .partners .person {
+    padding: 40px;
+    width: 750px;
+    height: 300px;
+    background-color: #F2F0F2;
+    border-radius: 60px 60px 60px 12px;
+}
+
+.second-partner .partners .person .img-part {
+    display: flex;
+    gap: 20px;
+}
+
+.partners .person .img-part .text {
+    padding-top: 15px;
+}
+
+.partners .person .img-part .text h5 {
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+}
+
+.partners .person .img-part .text small {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+.second-partner .partners .person .caption p {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.second-partner .btn {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-partner .btn .img-part {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+
+
+/*Blog-Section*/
+
+.first-blog {
+    padding-bottom: 90px;   
+}
+
+.first-blog .text {
+    text-align: center;
+}
+
+.first-blog .text h1 {
+    font-size: 45px;
+    line-height: 54px;
+    padding-bottom: 8px;
+}
+
+.first-blog .bloggers .all-bloggers{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-blog .bloggers .blogs{
+    width: 350px;
+    height: 480px;
+    border-radius: 60px;
+    background-color: #F2F0F2;
+}
+
+.first-blog .bloggers .blogs .texts {
+    padding: 20px;
+}
+
+.first-blog .bloggers .blogs .texts h5 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.first-blog .bloggers .blogs .texts small {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.first-blog .blogs .texts .read {
+    display: flex;
+    gap: 8px;
+    padding-top: 25px;
+}
+
+.first-blog .blogs .texts .read h6 {
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.first-blog .bloggers .btn {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.first-blog .bloggers .btn a {
+    text-decoration: none;
+    background-color: #064749;
+    color: #FFFFFF;
+    padding: 20px 45px;
+    border-radius: 30px;
+}
+
+.second-blog {
+    padding-bottom: 90px;   
+}
+
+.second-blog .text {
+    text-align: center;
+}
+
+.second-blog .text h1 {
+    font-size: 45px;
+    line-height: 54px;
+    padding-bottom: 8px;
+}
+
+.bloggers .all-bloggers{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.second-blog .bloggers .blogs{
+    width: 350px;
+    height: 480px;
+    border-radius: 60px;
+    background-color: #F2F0F2;
+}
+
+.second-blog .bloggers .blogs .texts {
+    padding: 20px;
+}
+
+.second-blog .bloggers .blogs .texts h5 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+
+.second-blog .bloggers .blogs .texts small {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.second-blog .blogs .texts .read {
+    display: flex;
+    gap: 8px;
+    padding-top: 25px;
+}
+
+.second-blog .blogs .texts .read h6 {
+    font-size: 14px;
+    padding-top: 2px;
+}
+
+.second-blog .bloggers .btn {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.second-blog .bloggers .btn a {
+    text-decoration: none;
+    background-color: #064749;
+    color: #FFFFFF;
+    padding: 20px 45px;
+    border-radius: 30px;
+}
+
+
+
+/*Useful-Links*/
+
+.useful-link {
+    padding-bottom: 90px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.useful-link .text {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.useful-link .text h1 {
+    font-size: 45px;
+    line-height: 54px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.useful-link .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+}
+
+.useful-link .links .all-links a {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    text-decoration: none;
+    border-bottom: 1px solid #064749;
+    color: #064749;
+}
+
+.useful-link .links .all-links {
+    padding-bottom: 12px;
+    gap: 30px;
+}
+
+
+/*Choose-City*/
+
+.choose-city{
+    background-image: url(/Imgaes/background.png);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 90px;
+}
+
+.choose-city .city {
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #181A18;
+    width: 350px;
+    height: 300px;
+    top: 250px;
+    left: 550px;
+    padding: 50px;
+    border-radius: 60px 60px 60px 12px;
+}
+
+.choose-city .city h2 {
+    font-size: 35px;
+    line-height: 60px;
+    font: 700;
+}
+
+.choose-city .city p {
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 400;
+}
+
+.choose-city .city select {
+    width: 100%;
+    background-color: #064749;
+    color: #FFFFFF;
+    font-weight: 700;
+    border-radius: 60px;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+
+/*Footer*/
+
+footer {
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .logo .img {
+    padding-bottom: 10px;
+}
+
+footer .logo .icon {
+    display: flex;
+    gap: 25px;
+    padding: 10px 0;
+}
+
+footer .logo .text {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
+footer .menu {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+
+}
+
+footer .menu h5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+footer .menu li {
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+footer .menu li a {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #181A18;
+    text-decoration: none;
+}
+
+
+footer .subscribe h5 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+footer .subscribe p {
+    font-size: 17px;
+}
+
+footer .subscribe input {
+    width: 100%;
+    margin: 15px 0;
+    padding: 15px;
+    border: none;
+    outline-color: #F2F0F2;
+    border-radius: 10px solid #F2F0F2;
+    background-color: #F2F0F2;
+    color: #064749;
+}
+
+footer .subscribe .btn {
+    background-color: #064749;
+    text-align: center;
+    border-radius: 30px;
+    padding: 15px;
+}
+
+footer .subscribe .btn a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+
+/*Disabled these section for for the desktop-view*/
+
+@media (min-width: 1024px) {
+    .second-partner {
+        display: none;
+    }
+
+    .second-blog {
+        display: none;
+    }
+
+    header .navbar {
+        display: none;
+    }
+}
+
+
+
+/*For Tablet View*/
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+
+    header .navbar {
+        display: none;
+    }
+
+    .hero-section {
+        width: 100%;
+        height: 85vh;
+        background-size: contain;
+    }
+
+    .hero-section .rent {
+        width: 300px;
+        height: 250px;
+        padding: 30px 25px;
+        top: 50px;
+    }
+
+    .hero-section .rent h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hero-section .rent h5 {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .future-section {
+        flex-direction: column;
+        padding-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 0;
+    }
+
+    .future-section .image-section {
+        order: 2;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .future-section .image-section img {
+        border-radius: 0;
+    }
+
+    .future-section .text-section {
+        order: 1;
+        height: 300px;
+        border-bottom-right-radius: 0;
+        border-top-left-radius: 60px;
+        padding: 20px;
+        width: 640px;
+    }
+
+    .feature-section {
+        padding: 90px 50px;
+    }
+
+    .text-section .text h2 {
+        font-size: 42px;
+    }
+
+    .future-section .text-section .text{
+        padding: 40px;
+        text-align: center;
+    }
+
+    .feature-section .text-section br {
+        display: none;
+        text-align: center;
+    }
+
+    .feature-section .text-section h1 {
+        font-size: 33px;
+    }
+
+    .feature-section .icon-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .feature-section .icon-section .logo {
+        width: 320px;
+    }
+
+    .location-section {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .location-section .text h1 {
+        font-size: 42px;
+    }
+
+     .location {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+    }
+
+    .bespoke-section {
+        width: 100%;
+        height: 85vh;
+        background-size: contain;
+    }
+
+    .bespoke-section .text {
+        top: 20px;
+    }
+
+    .corporate-section {
+        padding-right: 50px;
+        padding-left: 50px;
+        padding-bottom: 50px;
+    }
+
+    .corporate-section .corporate-text h1 {
+        font-size: 42px;
+    }
+
+    .corporate-section .corporate-text p {
+        font-size: 17px;
+    }
+
+    .corporate-section .corporate-text br {
+        display: none;
+    }
+
+    .corporate-section .corporate-features {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .corporate-section .corporate-features .features {
+        margin-bottom: 30px;
+        height: 200px;
+    }
+
+    .first-partner {
+        display: none;
+    }
+
+    .second-partner {
+        padding-bottom: 40px;
+    }
+
+    .second-partner .texts h1 {
+        font-size: 42px;
+    }
+
+    .second-partner .partners {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .second-partner .partners .person {
+        width: 500px;
+        margin-bottom: 40px;
+        border-bottom-right-radius: 12px;
+    }
+
+    .first-blog {
+        display: none;
+    }
+
+    .second-blog .all-bloggers {
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .second-blog .bloggers .blogs {
+        margin-bottom: 40px;
+    }
+
+    .second-blog .bloggers .blogs .texts {
+        padding: 30px;
+        text-align: center;
+    }
+
+    .second-blog .bloggers .blogs .texts h5 {
+        font-size: 22px;
+        padding-bottom: 25px;
+    }
+
+    .second-blog .bloggers .blogs .texts small {
+        font-size: 16px;
+    }
+
+    .second-blog .blogs .texts .read {
+        align-items: center;
+        justify-content: center;
+        padding-top: 35px;
+    }
+
+    .second-blog .blogs .texts .read h6 {
+        font-size: 18px;
+    }
+
+    .useful-link {
+        padding-right: 50px;
+        padding-left: 50px;
+    }
+
+    .useful-link .text h1 {
+        font-size: 42px;
+    }
+
+    .useful-link .links .all-links a {
+        font-size: 16px;
+    }
+
+    .choose-city {
+        margin-bottom: 0;
+        width: 100%;
+        height: 100vh;
+        background-size: contain;
+        overflow: hidden;
+    }
+
+    .choose-city .city {
+        top: 10px;
+        left: 250px;
+        width: 300px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 12px 30px 30px 12px;
+    }
+
+    .choose-city .city h2 {
+        font-size: 29px;
+    }
+
+    .choose-city .city p {
+        font-size: 15px;
+    }
+
+    .choose-city .city select {
+        width: 90%;
+    }
+
+    footer {
+        padding-left: 50px;
+        padding-right: 50px;
+        flex-direction: column;
+    }
+
+    footer .logo  {
+        order: 1;
+        text-align: center;
+        padding-bottom: 40px;
+    }
+
+    footer .logo img {
+        order: 1;
+    }
+
+
+    footer .logo .text {
+        order: 2;
+        display: none;
+    }
+
+    footer .logo .icon {
+        order: 3;
+        display: none;
+    }
+
+    footer .menu {
+        order: 2;;
+     }
+
+    footer .subscribe {
+        padding-top: 30px;
+        order: 3;
+    }
+
+    footer .subscribe input {
+        width: 90%;
+    }
+
+    footer .subscribe .btn {
+        width: 50%;
+    }
+
+ 
+
+}
+
+
+
+/*For Mobile View*/
+
+@media only screen and (max-width: 767px) {
+    header .menu-section {
+        display: none;
+    }
+
+    .hero-section {
+        background-position: center;
+    }
+
+    .hero-section .rent {
+        top: 35px;
+        width: 300px;
+        height: 250px;
+        padding: 30px;
+    }
+
+    .hero-section .rent h1 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .hero-section .rent br {
+        display: none;
+    }
+
+    .hero-section .rent h5 {
+        font-size: 15px;
+    }
+
+    .future-section {
+        padding: 50px 30px;
+        flex-direction: column;
+    }
+
+    .future-section .image-section {
+        display: grid;
+        background-color: #F2F0F2;
+        border-radius: 20px 20px 0px 0px;
+    }
+
+    .future-section .image-section img {
+        width: 100%;
+    }
+
+    .future-section .text-section {
+        padding: 30px 20px;
+        overflow: hidden;
+        width: 100%;
+        height: 250px;
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    .feature-section .text-section .text {
+        top: 0;
+        left: 0;
+    }
+
+    .text-section .text h2 {
+        font-size: 30px;
+        width: 300px;
+        line-height: 40px;
+    }
+
+    .text-section .text br {
+        display: none;
+        text-align: center;
+    }
+
+    .text-section .text h5 {
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .feature-section {
+        padding-bottom: 50px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+
+    .feature-section .text-section br {
+        display: none;
+    }
+
+    .feature-section .text-section h1 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .feature-section .text-section h5 {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .feature-section .icon-section br {
+        display: none;
+    }
+
+    .feature-section .icon-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .feature-section .icon-section .logo {
+        width: 330px;
+    }
+
+    .icon-section .logo h3 {
+        font-size: 27px;
+    }
+
+    .icon-section .logo h6 {
+        font-size: 15px;
+    }
+
+    .location-section {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 50px;
+    }
+
+    .location-section .text h1 {
+        font-size: 30px;
+    }
+
+    .location {
+        flex-direction: column;
+    }
+
+    .location .city .text {
+        font-size: 24px;
+    }
+
+    .location .city {
+        padding-bottom: 25px;
+    }
+
+    .location .city img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .location-section .btn {
+        padding-top: 40px;
+    }
+
+    .bespoke-section {
+        background-position: center;
+    }
+
+    .bespoke-section .text {
+        top: 50px;
+        padding: 20px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .bespoke-section .text .btn {
+        width: 50%;
+    }
+
+    .bespoke-section .text h2 {
+        font-size: 30px;
+    }
+
+    .bespoke-section .text br {
+        display: none;
+    }
+
+    .bespoke-section .text p {
+        font-size: 16px;
+    }
+
+    .corporate-section {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 40px;
+    }
+
+    .corporate-section .corporate-text br {
+        display: none;
+    }
+
+    .corporate-section .corporate-text h1 {
+        font-size: 30px;
+    }
+
+    .corporate-section .corporate-text p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .corporate-section .corporate-features {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .corporate-section .corporate-features .features {
+        margin-bottom: 30px;
+        width: 300px;
+    }
+
+    .second-partner {
+        padding-top: 0;
+        padding-bottom: 50px;
+    }
+
+    .second-partner .texts h1 {
+        font-size: 30px;
+        padding-bottom: 0;
+    }
+
+    .second-partner .texts p {
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .second-partner .partners {
+        flex-direction: column;
+        padding: 30px;
+    }
+
+    .second-partner .partners .person {
+        width: 100%;
+        height: 350px;
+        padding: 30px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+    }
+
+    .second-partner .partners .person .caption p {
+        font-size: 16px;
+    }
+
+    .partners .person .img-part .text {
+        padding-top: 5px;
+    }
+
+    .partners .person .img-part .text h5 {
+        font-size: 23px;
+    }
+
+    .second-partner .btn {
+        padding: 15px 0;
+    }
+
+    .second-blog {
+        padding-bottom: 40px;
+    }
+
+    .second-blog .text h1 {
+        font-size: 30px;
+    }
+
+    .bloggers .all-bloggers {
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 35px;
+    }
+
+    .bloggers .all-bloggers .blogs {
+        margin-bottom: 30px;
+        height: 450px;
+    }
+
+    .second-blog .bloggers .blogs .texts {
+        text-align: center;
+    }
+
+    .second-blog .bloggers .blogs .texts small { 
+        font-size: 16px;
+    }
+
+    .second-blog .bloggers .btn {
+        padding-top: 0;
+    }
+
+    .second-blog .blogs .texts .read {
+        justify-content: center;
+    }
+
+    .second-blog .blogs .texts .read h6 {
+        font-size: 16px;
+    }
+
+    .useful-link {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 30px;
+    }
+
+    .useful-link .text h1 {
+        font-size: 30px;
+    }
+
+    .useful-link .links .all-links {
+        padding-bottom: 13px;
+    }
+
+    .useful-link .text {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+
+    .useful-link .links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .useful-link .links .all-links a {
+        font-size: 15px;
+    }
+
+    .choose-city {
+        margin-top: 30px;
+        background-position: center;
+    }
+
+    .choose-city .city h2 {
+        font-size: 28px;
+    }
+
+    .choose-city .city {
+        top: 50px;
+        left: 0;
+        border-radius: 0 40px 40px 0;
+        padding: 20px;
+        width: 300px;
+        height: 250px;
+    }
+
+    .choose-city .city select {
+        width: 80%;
+    }
+
+    footer {
+        padding-right: 30px;
+        padding-left: 30px;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+
+    footer .logo {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    footer .logo .icon {
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    footer .menu h5 {
+        font-size: 17px;
+    }
+
+    footer .menu li a {
+        font-size: 16px;
+    }
+
+    footer .logo .text {
+        padding-bottom: 10px;
+    }
+
+    footer .subscribe p {
+        padding-bottom: 10px;
+    }
+
+    footer .menu {
+        order: 2;
+        margin-bottom: 40px;
+    }
+
+    footer .logo .img {
+        order: 1;
+    }
+
+    footer .subscribe {
+        order: 3;
+        text-align: center;
+    }
+
+    footer .subscribe .btn {
+        width: 50%;
+        margin-left: 100px;
+    }
+
+
+
+
+    .first-partner, .first-blog {
+        display: none;
+    }
+
+
+}
